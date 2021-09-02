@@ -27,7 +27,7 @@ var transactionSeed = [
 db.Transaction.deleteMany({})
   .then(() => db.Transaction.collection.insertMany(transactionSeed))
   .then(data => {
-    console.log(data.result.n + " records inserted!");
+    console.log(data.result.n + " updated");
     process.exit(0);
   })
   .catch(err => {
