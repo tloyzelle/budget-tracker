@@ -1,4 +1,3 @@
-
 let db;
 let budgetVersion;
 
