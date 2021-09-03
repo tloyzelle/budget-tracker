@@ -1,9 +1,9 @@
 var mongoose = require("mongoose");
 var db = require("../models");
 
-mongoose.connect(
-    process.env.MONGODB_URI || "mongodb://localhost/Budget",
-    {useNewUrlParser: true}
+mongoose.connect("mongodb://localhost/budget",
+    {useNewUrlParser: true,
+    useFindandModify: false}
 );
 
 var transactionSeed = [
