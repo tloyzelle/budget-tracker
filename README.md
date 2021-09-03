@@ -14,6 +14,8 @@
 
 ## Overview
 
+This application allows for users to easily track their spending and access it at anytime, with offline functionality as well!
+
 [Github Repo](https://github.com/tloyzelle/Budget_Tracker)
 
 [Deployed Application](https://budget-tracker-tloyzelle.herokuapp.com)
