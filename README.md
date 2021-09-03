@@ -14,6 +14,8 @@
 
 ## Overview
 
+[Github Repo](https://github.com/tloyzelle/Budget_Tracker)
+
 ## Installation
 Run npm i in terminal to install all needed dependencies. 
 
