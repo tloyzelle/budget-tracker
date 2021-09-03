@@ -1,7 +1,7 @@
 var mongoose = require("mongoose");
 var db = require("../models");
 
-mongoose.connect("mongodb://localhost/budget",
+mongoose.connect("mongodb://localhost/transaction",
     {useNewUrlParser: true,
     useFindandModify: false}
 );
