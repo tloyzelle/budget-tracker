@@ -15,6 +15,9 @@
 ## Overview
 
 ## Installation
+Run npm i in terminal to install all needed dependencies. 
+
+Then npm run seed to populate the database from CLI Last npm start to begin your port.
 
 ## Use
 
