@@ -3,10 +3,7 @@ var db = require("../models");
 
 mongoose.connect(
     process.env.MONGODB_URI || "mongodb://localhost/Budget",
-    {     useNewUrlParser: true,
-      useUnifiedTopology: true,
-      useCreateIndex: true,
-      useFindAndModify: false}
+    {useNewUrlParser: true}
 );
 
 var transactionSeed = [
