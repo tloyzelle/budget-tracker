@@ -3,7 +3,8 @@ var db = require("../models");
 
 mongoose.connect("mongodb://localhost/transaction",
     {useNewUrlParser: true,
-    useFindandModify: false}
+    useFindandModify: false,
+    useUnifiedTopology: true}
 );
 
 var transactionSeed = [
