@@ -1,4 +1,4 @@
-# Budget_Tracker
+# budget-tracker
 
 ## Table of Contents
 
